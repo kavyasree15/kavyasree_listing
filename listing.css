@@ -1,0 +1,174 @@
+body{
+    margin:auto;
+    background-color: rgb(245, 152, 152);
+}
+
+a{
+    text-decoration:none
+}
+
+header{
+    height:60px;
+    /*border:5px solid hotpink;*/
+    background-color: #3b2632;
+}
+
+#brand{
+    float: left;
+    color:white;
+    font-size: 30px;
+    margin-top:1%;
+    margin-left:1%
+}
+
+#social{
+    float: right;
+}
+
+.socialLogo{
+    height:50px
+}
+
+
+#content{
+    width:85%;
+    margin-left:7.5%;
+    margin-top:3%;
+    display: flex;
+}
+
+.filter{
+    height:500px;
+    width:20%;
+    border:4px solid rgb(65, 64, 64);
+}
+
+.restContent{
+    
+    width:70%;
+    
+    margin-left:7%
+}
+
+
+/* Footer */
+footer{
+    /* height: 80px; */
+    /* border:10px double orange */
+    background-color: #3b2632;
+    text-align: center;
+    color: white
+}
+
+.footText{
+    font-size: 20px;
+}
+
+.footDiv{
+    display: inline-block;
+    width:32%;
+    border-right: 2px solid white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.noborder{
+    border:none
+}
+.filter1{
+    color: black;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.filter2{
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.filter3{
+    color: black;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.filter4{
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.tilecontainer{
+    height:290px;
+    width:85%;
+    
+    margin-left: 50px;
+    margin-top: 20px;
+    box-shadow: 0px 11px 45px #3b2632
+    
+  
+}
+.image{
+    width:40%;
+    height: 190px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+    float: left;
+    
+}  
+.type{
+    float: right;
+    width: 45%;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+    
+}
+.button{
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+    
+}
+.b1{
+    background-color: rgb(52, 52, 130);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+.b2{
+    background-color: rgb(216, 46, 46);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.b3{
+    background-color: rgb(53, 176, 53);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+.b4{
+    background-color: rgb(181, 181, 61);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.reasturent-name{
+    font-style: bold;
+    color: blue;
+    font-size: 25px;
+
+}
+
+
